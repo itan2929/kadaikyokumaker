@@ -1,0 +1,24 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+*token*.txt
+
+# Python artifacts and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

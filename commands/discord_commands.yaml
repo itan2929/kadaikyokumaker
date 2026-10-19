@@ -1,0 +1,26 @@
+- name: kadai
+  description: 任意の難易度幅で任意の数の課題曲を押し付けます
+  options:
+    - name: min_difficulty
+      description: 整数・+はレベル、小数は譜面定数（例 14 / 14+ / 14.0）
+      type: 3 # string
+      required: true
+    - name: max_difficulty
+      description: 整数・+はレベル、小数は譜面定数（例 15 / 15+ / 15.0）
+      type: 3 # string
+      required: true
+    - name: count
+      description: 挙げる課題曲の数を指定してください
+      type: 3 # string
+      required: true
+- name: kadai-ex
+  description: 条件を入力し、ジャンルと譜面難易度を複数選んで課題曲を抽選します
+  options:
+    - name: count
+      description: 抽選する曲数（1〜20）
+      type: 4 # integer
+      required: true
+      min_value: 1
+      max_value: 20
+- name: taikai
+  description: 条件を入力し、ジャンルと譜面難易度を複数選んで10曲を抽選します
