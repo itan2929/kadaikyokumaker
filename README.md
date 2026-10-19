@@ -81,6 +81,6 @@ npx cdk deploy KadaikyokumakerStack
 
 2026-10-19 に曲数不足時の部分結果対応と `/taikai` の5秒待機をAWSへデプロイし、Stack `UPDATE_COMPLETE` と両Lambdaの `LastUpdateStatus=Successful` を確認しました。Discordで10曲未満のプールと抽選を実行する確認は未実施です。
 
-2026-10-19 に各レベル欄で整数・`+` を表示レベル、小数を譜面定数として扱う機能をAWSへデプロイし、Stack `UPDATE_COMPLETE` と両Lambdaの `LastUpdateStatus=Successful` を確認しました。Discordグローバルコマンドも再登録済みです。Discordで `14` / `14.0` を入力する実操作確認は未実施です。
+2026-10-19 に各レベル欄で整数・`+` を表示レベル、小数を譜面定数として扱う機能をAWSへデプロイし、Stack `UPDATE_COMPLETE` と両Lambdaの `LastUpdateStatus=Successful` を確認しました。Discordグローバルコマンドも再登録済みで、譜面定数入力はユーザーがDiscord上で動作確認済みです。
 
-このリポジトリにGit remote `origin` は設定されていません。`src/`、`commands/`、`package-lock.json` は現在ローカルで未追跡です。
+公開リポジトリ: [itan2929/kadaikyokumaker](https://github.com/itan2929/kadaikyokumaker)。ソースは `main` ブランチで管理しています。
